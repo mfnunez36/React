@@ -1,12 +1,12 @@
 import Router from "next/router";
 
-const Users = (props) => {
+const Users = ({users}) => {
     return (
         <>
             <h2>Users</h2>
             <ul className="list-group">
                 {
-                    props.users.map(user => (
+                    users.map(user => (
                         <li 
                         className="list-group-item list-group-item-action" 
                         key={ user.id }
