@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando Componente </List> Validar Snapshot 1`] = `
+<section>
+  <h1>
+    Lista Datos
+  </h1>
+  <ul
+    key="1"
+  >
+    <li>
+      dato1
+    </li>
+  </ul>
+  <ul
+    key="2"
+  >
+    <li>
+      dato2
+    </li>
+  </ul>
+</section>
+`;
